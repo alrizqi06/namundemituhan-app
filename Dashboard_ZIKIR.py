@@ -2275,8 +2275,8 @@ def main():
                 (sc1, "Total Grid Points",    f"{scr_stats['total_points']:,}",        ""),
                 (sc2, "Excellent Sites",      f"{scr_stats['excellent_n']:,}",          f"({scr_stats['excellent_pct']:.1f}%)"),
                 (sc3, "Moderate Sites",       f"{scr_stats['moderate_n']:,}",           f"({scr_stats['moderate_pct']:.1f}%)"),
-                (sc4, "Domain Mean Wind Speed @ Hub", f"{scr_stats['domain_mean_hub']:.2f}",   "m/s"),
-                (sc5, "Domain Best Wind Speed @ Hub", f"{scr_stats['domain_max_hub']:.2f}",    "m/s"),
+                (sc4, "Mean Wind Speed @ Hub", f"{scr_stats['domain_mean_hub']:.2f}",   "m/s"),
+                (sc5, "Best Wind Speed @ Hub", f"{scr_stats['domain_max_hub']:.2f}",    "m/s"),
             ]:
                 with col:
                     st.markdown(
